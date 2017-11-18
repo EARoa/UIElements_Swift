@@ -17,11 +17,11 @@ class CollectionViewController: UICollectionViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         let layout: UICollectionViewFlowLayout = UICollectionViewFlowLayout()
-        let width = UIScreen.main.bounds.width
-        layout.sectionInset = UIEdgeInsets(top: 5, left: 5, bottom: 5, right: 5)
-        layout.itemSize = CGSize(width: width, height: width)
+        let cellSize = 96
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        layout.itemSize = CGSize(width: cellSize, height: cellSize)
         layout.minimumInteritemSpacing = 0
-        layout.minimumLineSpacing = 0
+        layout.minimumLineSpacing = 50
         collectionView!.collectionViewLayout = layout
     }
 
