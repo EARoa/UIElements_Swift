@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7A5353D71FC09CB8003A9829 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5353D61FC09CB8003A9829 /* CollectionViewController.swift */; };
+		7A5353D91FC0B64C003A9829 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A5353D81FC0B64C003A9829 /* MapViewController.swift */; };
 		7AC4A7661FC097C200093553 /* ImagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AC4A7651FC097C200093553 /* ImagesViewController.swift */; };
 		7AFF351E1FBFC62B00B9AB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AFF351D1FBFC62B00B9AB1C /* AppDelegate.swift */; };
 		7AFF35231FBFC62B00B9AB1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFF35211FBFC62B00B9AB1C /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 
 /* Begin PBXFileReference section */
 		7A5353D61FC09CB8003A9829 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		7A5353D81FC0B64C003A9829 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		7AC4A7651FC097C200093553 /* ImagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesViewController.swift; sourceTree = "<group>"; };
 		7AFF351A1FBFC62B00B9AB1C /* UIElements.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIElements.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AFF351D1FBFC62B00B9AB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				7AFF35331FBFD2B800B9AB1C /* Text FieldsViewController.swift */,
 				7AC4A7651FC097C200093553 /* ImagesViewController.swift */,
 				7A5353D61FC09CB8003A9829 /* CollectionViewController.swift */,
+				7A5353D81FC0B64C003A9829 /* MapViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -170,6 +173,7 @@
 				7AFF35341FBFD2B800B9AB1C /* Text FieldsViewController.swift in Sources */,
 				7AFF35301FBFC65F00B9AB1C /* MainTableViewController.swift in Sources */,
 				7AFF351E1FBFC62B00B9AB1C /* AppDelegate.swift in Sources */,
+				7A5353D91FC0B64C003A9829 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
